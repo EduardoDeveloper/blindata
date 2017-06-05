@@ -1,0 +1,20 @@
+{
+  "name": "ariadne_template_parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "busboy-body-parser": "^0.3.0",
+    "docxtemplater": "^3.1.2",
+    "express": "^4.15.3",
+    "jszip": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install"
+  },
+  "author": "",
+  "license": "ISC"
+}
