@@ -13,7 +13,7 @@ var express=require('express'),
 app.use(busboyBodyParser());
 
 app.get('/',function(request,response){
-    response.send({"mensaje","Hola Mundo"});
+    response.send({"mensaje":"Hola Mundo"});
 });
 app.post('/template',function(request,response){
     var doc = new Docxtemplater(),
